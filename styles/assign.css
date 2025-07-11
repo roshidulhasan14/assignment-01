@@ -32,6 +32,9 @@
 }
 
 /* nav style */
+.secondary-bg{
+    background-color: #FFFFFF;
+}
 nav{
     display: flex;
     align-items: center;
@@ -67,6 +70,10 @@ nav ul li a{
 button{
     
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* see style */
 
 .see{
@@ -95,4 +102,41 @@ button{
 .see-pic{
     width: 400px;
     border-radius: 40px;
+}
+/* user style */
+.user-section{
+    background-color: #dedef7;
+    
+}
+
+
+.users{
+   padding: 20px; 
+}
+.user-content{
+    text-align: center;
+    color: #252432;
+    font-weight: 800;
+    font-size: 40px;
+     
+   
+    
+}
+
+.user-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item-title{
+    color: #282497;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.item-description{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 15px;
 }
