@@ -23,6 +23,9 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+.btn-primary:hover{
+    background-attachment: brown;
+}
 
 .header{
     background-image: url("../images/Hero-bg.png");
@@ -79,7 +82,7 @@ main{
 .see{
     display: flex;
     justify-content: space-between;
-    margin: 80px 150px;
+    margin: 80px 100px;
 
 }
 .see-title{
@@ -139,4 +142,39 @@ main{
     margin-top: 0;
     font-weight: 400;
     font-size: 15px;
+}
+
+/* what style */
+
+
+.whats{
+   padding: 20px; 
+}
+.what-content{
+    text-align: center;
+    color: #252432;
+    font-weight: 800;
+    font-size: 40px;
+     
+   
+    
+}
+
+.say-container{
+    display: flex;
+    justify-content: space-around;
+}
+.say-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.say-description{
+    font-weight: 400;
+    font-size: 15px;
+}
+.review-container{
+    display: flex;
+}
+.avatar{
+    border-radius: 20px;
 }
