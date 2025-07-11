@@ -69,10 +69,9 @@ nav ul li a{
 }
 .button-stay{
     align-items: center;
+    margin-bottom: 100px;
 }
-button{
-    
-}
+
 main section{
     margin-top: 130px;
     margin-bottom: 130px;
@@ -251,6 +250,9 @@ form textarea{
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 24px;  
+}
+.button-get{
+    width: 500px;
 }
 /* footer style */
 
